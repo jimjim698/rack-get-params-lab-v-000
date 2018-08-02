@@ -52,7 +52,7 @@ class Application
       "Your cart is empty"
     else
       @@cart.each do |item|
-        return "#{item}\n"
+        "#{item}\n"
       end
     end
   end
