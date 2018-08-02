@@ -51,8 +51,7 @@ class Application
     if @@cart.empty?
       "Your cart is empty"
     else
-      @@cart.each do |item|
-        "#{item}\n"
+      @@cart.join("\n")
       end
     end
   end
